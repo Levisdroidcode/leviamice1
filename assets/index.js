@@ -1,0 +1,5 @@
+export {default as YinImage} from "./file.png"
+export {default as Avatar} from "./Avatar.png"
+export {default as Hotels} from "./Hotels.png"
+export {default as Events} from "./Events.png"
+export {default as Travel} from "./Travel.png"
