@@ -12,16 +12,23 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.levisdroidcode.LeviamiceAdvisor"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/leviamice.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.levisdroidcode.LeviamiceAdvisor"
     },
     "web": {
       "favicon": "./assets/leviamice.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "72203bb2-bbc1-4070-b923-ed6ced6b923a"
+      }
     }
   }
 }

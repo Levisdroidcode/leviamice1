@@ -5,13 +5,13 @@ const options = {
   method: 'GET',
   url: 'https://real-time-events-search.p.rapidapi.com/search-events',
   params: {
-    query: 'Events in Nairobi',
+    query: 'Events',
     date: 'any',
     is_virtual: 'false',
     start: '0'
   },
   headers: {
-    'x-rapidapi-key': 'fa5c1f4898mshea861716047ca8ap15c991jsna7f0b5027b5d',
+    'x-rapidapi-key': '1e4ef15cd1mshfcc05aecb502e62p1b997bjsn81ca6e46dde1',
     'x-rapidapi-host': 'real-time-events-search.p.rapidapi.com'
   }
 };

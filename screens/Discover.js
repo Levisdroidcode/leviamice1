@@ -66,13 +66,14 @@ const Discover = () => {
                 </View>
             ) : (
                 <ScrollView>
-                    <View className="flex-row items-center justify-center px-3 mt-8">
+                    <View className="flex-row items-center justify-between px-3 mt-8">
                         <MenuContainer
                             key="Hotel"
                             title="Hotels"
                             imageSrc={Hotels}
                             type={type}
                             setType={setType}
+                            onPress={() => navigation.navigate('Hotel')}
                         />
                         <MenuContainer
                             key="Events"
@@ -87,6 +88,7 @@ const Discover = () => {
                             imageSrc={Travel}
                             type={type}
                             setType={setType}
+                            onPress={() => navigation.navigate('Travel')}
                         />
                     </View>
 
